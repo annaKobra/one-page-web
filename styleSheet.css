@@ -17,21 +17,19 @@ body {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  background: url('https://i.imgur.com/esCF1Zn.png') right top no-repeat, 
-  url('https://i.imgur.com/pHfA50c.png') left top no-repeat,
-  url('https://i.imgur.com/LYLt6O7.png') right center no-repeat,
-  url('https://i.imgur.com/nU3G5qL.png') left center no-repeat;
+  background-image: url("https://i.imgur.com/PC0xRkZ.png"),
+    url("https://i.imgur.com/BYJrg10.png"),
+    url("https://i.imgur.com/wOWrMD0.png"),
+    url("https://i.imgur.com/VjUrVSV.png");
+  background-position: right center, right top, left top, left center;
+  background-size: 650px 1550px, 370px 700px, 650px 1000px, 632px 1500px;
+  background-repeat: no-repeat;
 }
-/*background: url('https://i.imgur.com/esCF1Zn.png') right top no-repeat, 
-  url('https://i.imgur.com/pHfA50c.png') left top no-repeat,
-  url('https://i.imgur.com/LYLt6O7.png') right center no-repeat,
-  url('https://i.imgur.com/nU3G5qL.png') left center no-repeat;*/
 ul {
   list-style: none;
 }
 li {
   padding-bottom: 10px;
-  color: black;
 }
 p {
   line-height: 25px;
@@ -100,9 +98,6 @@ button#submit {
 .img-container-aside {
   display: flex;
   margin-right: 20px;
-  /*width: 10%;
-  justify-content: flex-end;
-  margin-left: auto;*/
 }
 .circle-icons {
   display: flex;
@@ -114,16 +109,12 @@ button#submit {
   width: 548px;
 }
 /*main style*/
-main {
-  background: url('https://i.imgur.com/esCF1Zn.png') right bottom no-repeat,
-              url('https://i.imgur.com/pHfA50c.png') left bottom no-repeat;
-  opacity: 0.7;   
-}
 .container {
   display: flex;
   height: 1133px;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 .columnLeft {
   width: 335px;
@@ -132,6 +123,7 @@ main {
 .columnLeft h3,
 .columnRight h3 {
   width: 200px;
+  color: #00a9ff;
 }
 .columnRight {
   order: 1;
@@ -226,4 +218,18 @@ li.wbp-heading {
   display: flex;
   justify-content: center;
   height: 15%;
+}
+/*media queries*/
+@media only screen and (max-width: 480) {
+  body {
+    background-image: url("https://i.imgur.com/LYLt6O7.png"),
+      url("https://i.imgur.com/esCF1Zn.png"),
+      url("https://i.imgur.com/pHfA50c.png"),
+      url("https://i.imgur.com/nU3G5qL.png");
+    background-position: right center, right top, left top, left center;
+    background-size: 250px 250px, 250px 250px, 250px 250px, 250px 250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: red;
+  }
 }
