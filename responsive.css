@@ -1,0 +1,169 @@
+/*Mobile Styles*/
+@media only screen and (max-width: 599px) {
+  body {
+    background-image: url("https://i.imgur.com/esCF1Zn.png"),
+      url("https://i.imgur.com/Tk36dMx.png"),
+      url("https://i.imgur.com/LYLt6O7.png");
+    background-position: right top, left top, right center;
+    background-size: 150px 200px, 200px 200px, 390px 2000px;
+  }
+  /*navbar humbuger design*/
+  .navbar {
+    height: 120px;
+  }
+  .logo {
+    align-self: flex-start;
+    font-size: 20px;
+    white-space: nowrap;
+    padding-left: 20px;
+  }
+  .main-nav {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background: hsla(221, 74%, 91%, 0.15);
+    right: 11px;
+    top: 40px;
+    width: 20%;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .nav-links {
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .nav-links:hover {
+    cursor: pointer;
+    font-weight: bold;
+    background: hsla(346, 75%, 54%, 0.15);
+  }
+  .site-header button {
+    align-self: flex-end;
+    margin-right: 70px;
+  }
+  .nav-toggle {
+    align-self: flex-start;
+    color: white;
+    font-size: 30px;
+    padding-right: 10px;
+  }
+  .active {
+    display: block;
+  }
+  /*end navbar design*/
+  h1.heading {
+    font-size: 70px;
+    margin-top: 20px;
+  }
+
+  .search {
+    width: 90%;
+  }
+  .search-container {
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .img-container-aside {
+    margin-right: 0px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .circle-icons {
+    flex-direction: row-reverse;
+    width: 40%;
+  }
+  .description {
+    width: 300px;
+    height: 200px;
+  }
+
+  h2#logo {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .columnLeft,
+  .columnRight {
+    margin: 0px;
+  }
+  .question-icon {
+    padding: 0px;
+  }
+  .section-container {
+    padding-top: 0px;
+  }
+  .section-content {
+    width: 100%;
+  }
+  .pages-container {
+    width: 100%;
+  }
+  .footwrapper {
+    flex-flow: column wrap;
+    height: 100%;
+    padding-top: 0px;
+  }
+  .copyright {
+    padding-top: 10px;
+  }
+}
+/*Tablet Portrait*/
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  body {
+    background-image: url("https://i.imgur.com/brLqC9Q.png"),
+      url("https://i.imgur.com/7HdiJiP.png"),
+      url("https://i.imgur.com/LM9v1Ud.png"),
+      url("https://i.imgur.com/NUeruot.png");
+    background-size: 300px 1600px, 250px 680px, 250px 850px, 296px 1600px;
+  }
+  .nav-toggle,
+  .main-nav {
+    display: none;
+  }
+  h1.heading {
+    font-size: 100px;
+    margin-bottom: 0px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .columnLeft,
+  .columnRight {
+    margin: 0px;
+  }
+  .question-icon {
+    padding: 0px;
+  }
+  .section-content {
+    width: 100%;
+  }
+  .pages-container {
+    width: 100%;
+  }
+  .raw-wrapper {
+    flex-flow: column wrap;
+  }
+}
+/*Tablet Landscape*/
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  body {
+    background-size: 600px 1550px, 500px 800px, 500px 1000px, 546px 1500px;
+  }
+  .nav-toggle,
+  .main-nav {
+    display: none;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+  .nav-toggle,
+  .main-nav {
+    display: none;
+  }
+}

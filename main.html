@@ -4,17 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="keywords" content="HTML,CSS>
     <!--Setting the viewport-->
-    <meta name=" viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
     <link href="styleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="responsive.css" type="text/css" rel="stylesheet" />
+    <!--fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <header>
       <div class="site-header">
-        <h2 id="logo">Company name</h2>
-        <button type="button" value="Sign up" id="signup-button">
-          Sign up
-        </button>
+        <nav class="navbar">
+          <a href="#" class="logo">Company name</a>
+          <ul class="main-nav" id="js-menu">
+            <li><a href="#" class="nav-links">Home</a></li>
+            <li><a href="#" class="nav-links">About</a></li>
+            <li><a href="#" class="nav-links">Contact</a></li>
+          </ul>
+
+          <button type="button" value="Sign up" id="signup-button">
+            Sign up
+          </button>
+
+          <span class="nav-toggle" id="js-nav-toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+        </nav>
       </div>
       <div class="body-container">
         <h1 class="heading">CryptoWorld</h1>
@@ -83,7 +103,6 @@
             </div>
           </div>
         </div>
-
         <div class="description">
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -282,5 +301,13 @@
         </div>
       </div>
     </footer>
+    <script>
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-nav-toggle");
+
+      navBarToggle.addEventListener("click", function() {
+        mainNav.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
