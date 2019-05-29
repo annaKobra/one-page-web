@@ -14,51 +14,17 @@ body {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  /*background-image: url("https://i.imgur.com/PC0xRkZ.png"),
+  background-image: url("https://i.imgur.com/PC0xRkZ.png"),
     url("https://i.imgur.com/BYJrg10.png"),
     url("https://i.imgur.com/wOWrMD0.png"),
     url("https://i.imgur.com/VjUrVSV.png");
   background-position: right center, right top, left top, left center;
   background-size: 650px 1550px, 370px 700px, 650px 1000px, 632px 1500px;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   width: 100%;
-}
-/*design of the background*/
-.box-background {
-  height: 0px;
-  width: 0px;
-}
- .box-background .top-imges {
-  background-image: url("https://i.imgur.com/VbEPGq4.png"),
-  url("https://i.imgur.com/BYJrg10.png"),
-  url("https://i.imgur.com/LM9v1Ud.png"),
-  url("https://i.imgur.com/VjUrVSV.png");
-  background-position: right bottom, right top, left top, left bottom;
-  background-repeat: no-repeat;
-  background-size: 800px 1300px, 575px 810px, 620px 1100px, 645px 1300px;
-  width: 1430px;
-  height:1912px;
-  z-index: -1;
-  position: relative;
-}
-.box-background {
-  height: 0px;
-  width: 0px;
-}
-.box-background .bottom-imges {
-  width: 1430px;
-  height: 2247px;/*1468*/
-  background-image: url("https://i.imgur.com/BYJrg10.png"),
-  url("https://i.imgur.com/wOWrMD0.png");
-  background-position: right top, left top;
-  background-repeat: no-repeat;
-  background-size: 750px 750px, 600px 750px;
-  transform: rotate(-180deg);
-  position: absolute;
-  z-index: -2;
 }
 ul {
   list-style: none;
@@ -87,13 +53,13 @@ header {
 }
 .site-header button {
   color: white;
-  margin-left: auto;
-  margin-right: 50px;
   background-color: #00a9ff;
   border: none;
   border-radius: 25px;
   width: 150px;
   height: 40px;
+  margin-left: auto;
+  margin-right: 50px;
 }
 h1.heading {
   font-size: 144px;
@@ -264,17 +230,3 @@ li.wbp-heading {
   justify-content: center;
   height: 15%;
 }
-
-/*.box-header .right-img {
-  background-image: url("https://i.imgur.com/BYJrg10.png"),
-  url("https://i.imgur.com/wOWrMD0.png");
-  background-position: right top, left top;
-  background-repeat: no-repeat;
-  background-size: 410px 800px, 715px 792px;
-  width: 1430px;
-  height: 792px;;
-  position: relative;
-  z-index: -1;
-  border: 1px solid red;
-}
-}*/

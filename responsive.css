@@ -1,22 +1,12 @@
 /*Mobile Styles*/
 @media only screen and (max-width: 599px) {
   body {
-    color: red;
-    /*background-image: url("https://i.imgur.com/esCF1Zn.png"),
+    background-image: url("https://i.imgur.com/esCF1Zn.png"),
       url("https://i.imgur.com/Tk36dMx.png"),
       url("https://i.imgur.com/LYLt6O7.png");
     background-position: right top, left top, right center;
     background-size: 150px 200px, 200px 200px, 390px 2000px;
-    background-repeat: no-repeat;*/
-  }
-  .box-background .top-imges {
-    background-image: url("https://i.imgur.com/esCF1Zn.png"),
-      url("https://i.imgur.com/Tk36dMx.png"),
-      url("https://i.imgur.com/LYLt6O7.png");
-      background-position: right top, left top, right center;
-      background-size: 150px 200px, 200px 200px, 390px 1000px;
-      
-      
+    background-repeat: no-repeat;
   }
   /*navbar humbuger design*/
   .navbar {
@@ -49,6 +39,7 @@
     font-weight: bold;
     background: hsla(346, 75%, 54%, 0.15);
   }
+
   .site-header button {
     align-self: flex-end;
     margin-right: 70px;
@@ -124,14 +115,13 @@
   }
 }
 /*Tablet Portrait*/
-@media only screen and (min-width: 600px) and (max-width: 899px) {
+@media only screen and (min-width: 599px) and (max-width: 899px) {
   body {
-    color: green;
-    /*background-image: url("https://i.imgur.com/brLqC9Q.png"),
+    background-image: url("https://i.imgur.com/brLqC9Q.png"),
       url("https://i.imgur.com/7HdiJiP.png"),
       url("https://i.imgur.com/LM9v1Ud.png"),
       url("https://i.imgur.com/NUeruot.png");
-    background-size: 300px 1600px, 250px 680px, 250px 850px, 296px 1600px;*/
+    background-size: 300px 1600px, 250px 680px, 250px 850px, 291px 1500px;
   }
   .nav-toggle,
   .main-nav {
@@ -157,15 +147,15 @@
   .pages-container {
     width: 100%;
   }
+
   .raw-wrapper {
     flex-flow: column wrap;
   }
 }
 /*Tablet Landscape*/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 899px) {
   body {
-    color: yellow;
-    /*background-size: 400px 1200px, 350px 900px, 400px 1000px, 440px 1500px;*/
+    background-size: 460px 1200px, 350px 900px, 400px 1000px, 440px 1500px;
   }
   .nav-toggle,
   .main-nav {
@@ -178,8 +168,7 @@
 /*Desktop*/
 @media only screen and (min-width: 1200px) {
   body {
-    color: pink;
-    /*background-size: 650px 1550px, 370px 700px, 650px 1000px, 632px 1500px;*/
+    background-size: 650px 1550px, 370px 700px, 650px 1000px, 632px 1500px;
   }
   .nav-toggle,
   .main-nav {
